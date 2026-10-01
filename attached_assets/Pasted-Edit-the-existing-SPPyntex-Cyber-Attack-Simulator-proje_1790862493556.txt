@@ -1,0 +1,84 @@
+Edit the existing SPPyntex Cyber Attack Simulator project you just built. Do NOT rebuild the project or change the simulation logic, scenarios, scoring, learning content, or navigation.
+
+I want this pass focused only on making the UI feel more like my personal SPPyntex project.
+
+### 1. Branding
+
+* Use the SPPyntex logo file I uploaded as the actual SPPyntex logo throughout the project.
+* Do not recreate the logo using text, initials, icons, or placeholders.
+* In the About section, keep the official SPPyntex/company logo on the left.
+* Beside it, show my uploaded photo next to **SAFAL PANTA**.
+* Use my uploaded photo as-is; do not generate or replace it with an AI avatar.
+* Make the photo look clean and intentional, preferably as a small rounded/square profile image.
+
+### 2. Make the UI less dull
+
+The current interface feels too static and plain. Keep the existing dark SPPyntex identity, but make it more visually interesting.
+
+Add:
+
+* subtle entrance animations
+* smooth page/section transitions
+* hover animations on cards and buttons
+* small scale/opacity transitions
+* animated progress indicators
+* subtle movement in the attack-flow diagrams
+* interactive scenario cards
+* better visual hierarchy
+* slightly more interesting typography
+
+Use animation carefully. It should feel like a polished personal cybersecurity project, NOT a flashy hacker movie website.
+
+### 3. Typography
+
+The current font feels generic/dull.
+
+Improve the typography with a modern technical-looking font combination. Use a distinctive heading font and a clean readable body font.
+
+Do not overuse monospace fonts. Keep body text comfortable to read.
+
+### 4. Responsiveness
+
+The current layout does not feel properly responsive.
+
+Make sure the entire project works cleanly on:
+
+* desktop
+* laptop
+* tablet
+* mobile
+
+Cards, navigation, scenario panels, diagrams, buttons, About section, and text should resize/reflow naturally instead of simply becoming smaller.
+
+### 5. SPPyntex visual direction
+
+Keep the existing SPPyntex personality:
+
+* dark
+* technical
+* personal
+* clean
+* slightly experimental
+* modern
+
+Avoid:
+
+* generic SaaS dashboard styling
+* corporate cybersecurity branding
+* excessive neon/glow
+* fake terminal effects
+* random graphs
+* unnecessary decorations
+* huge animations
+
+The final result should feel like **Safal Panta actually designed and built a cybersecurity learning project**, not like an AI-generated template.
+
+### Important
+
+Preserve all existing functionality.
+
+Do not remove or rewrite working simulation logic.
+
+Only improve the visual design, responsiveness, typography, animations, branding, and the About section.
+
+After making the changes, check the entire application for broken layouts, missing images, console errors, and broken buttons.
