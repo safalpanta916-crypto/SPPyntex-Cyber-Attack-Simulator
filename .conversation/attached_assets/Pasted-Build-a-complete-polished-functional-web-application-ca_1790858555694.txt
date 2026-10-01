@@ -1,0 +1,977 @@
+Build a complete, polished, functional web application called:
+
+SPPyntex Cyber Attack Simulator
+
+Created and designed by Safal Panta.
+
+The project should feel like a personal cybersecurity learning laboratory — not a corporate security product, not a generic SaaS dashboard, and not an obviously AI-generated template.
+
+The visual identity should feel consistent with the existing SPPyntex Security Laboratory project.
+
+The main idea is simple:
+
+Let users safely experience common cybersecurity attack scenarios through interactive simulations, make decisions during those scenarios, see what could happen, and learn how the attack can be prevented.
+
+This is an educational simulator.
+
+It must NOT perform real attacks against real systems.
+
+==================================================
+CORE IDEA
+=========
+
+The user chooses a cybersecurity scenario.
+
+Example:
+
+Phishing
+Password Attack
+Brute-force
+Man-in-the-Middle
+SQL Injection
+Malware Behavior
+
+The application then presents a fictional situation.
+
+The user reads the situation, makes a decision, and the simulation responds to that decision.
+
+The user should be able to see:
+
+What happened
+Why the decision mattered
+What the attacker was trying to achieve
+What warning signs existed
+What defensive measure could stop or reduce the attack
+
+The experience should feel interactive and educational rather than like reading a textbook.
+
+==================================================
+IMPORTANT SAFETY REQUIREMENT
+============================
+
+Everything must be simulated.
+
+Do NOT implement:
+
+* Real credential attacks
+* Real brute-force attempts
+* Real SQL injection against external systems
+* Real network interception
+* Real malware execution
+* Real exploitation of websites
+* Unauthorized scanning
+* Credential harvesting
+* Persistence
+* Real-world attack automation
+* Password cracking against real credentials
+
+Use fictional data, local application state, diagrams, animations, and predetermined educational outcomes.
+
+No external target should ever be attacked.
+
+==================================================
+BRAND
+=====
+
+Brand:
+
+SPPyntex
+
+Product:
+
+SPPyntex Cyber Attack Simulator
+
+Creator:
+
+Safal Panta
+
+The interface should feel like a personal security laboratory.
+
+Think:
+
+personal project
+student-built
+cybersecurity learning
+experimentation
+dark technical workspace
+clean interface
+
+Do NOT make it look like:
+
+enterprise software
+banking software
+corporate SOC dashboard
+generic AI SaaS
+crypto dashboard
+hacker movie interface
+
+Avoid excessive neon effects, excessive glowing text, fake terminal animations, and unnecessary "hacker" decorations.
+
+Keep the design dark, clean, technical, and slightly experimental.
+
+==================================================
+WRITING STYLE
+=============
+
+The copy throughout the application should sound natural.
+
+Avoid generic AI-generated phrases such as:
+
+"Unlock the future of cybersecurity."
+"Next-generation security platform."
+"Enterprise-grade cyber defense."
+"Revolutionizing cybersecurity education."
+"Advanced AI-powered threat intelligence."
+
+Do not use marketing language unnecessarily.
+
+Use straightforward language.
+
+Example:
+
+Instead of:
+
+"Experience our cutting-edge immersive cybersecurity simulation ecosystem."
+
+Use:
+
+"Choose a scenario and see how the attack unfolds."
+
+Instead of:
+
+"Leverage advanced defensive methodologies."
+
+Use:
+
+"Try different defenses and see what changes."
+
+The application should feel like Safal actually built it as a project to learn cybersecurity.
+
+==================================================
+APPLICATION STRUCTURE
+=====================
+
+Main navigation:
+
+Workspace
+Overview
+Attack Simulator
+
+Scenarios
+Phishing
+Password Attack
+Brute-force
+Man-in-the-Middle
+SQL Injection
+Malware Behavior
+
+Learning
+Concepts
+Defensive Measures
+
+About
+About the Simulator
+
+Keep the navigation simple.
+
+Do not create unnecessary pages.
+
+==================================================
+OVERVIEW
+========
+
+Create a simple overview page.
+
+Header:
+
+SPPyntex Cyber Attack Simulator
+
+Short description:
+
+"Learn how common cyber attacks work through safe interactive simulations."
+
+Show a few simple sections:
+
+Available scenarios
+Recently completed simulations
+Simulation progress
+
+Do not fabricate statistics.
+
+If the user has not completed anything yet, show an honest empty state.
+
+Example:
+
+"No simulations completed yet."
+
+Include a clear:
+
+"Start a simulation"
+
+button.
+
+==================================================
+ATTACK SCENARIOS
+================
+
+Create a scenario selection page.
+
+Each scenario should have:
+
+Title
+Short description
+Difficulty
+Estimated time
+What the user will learn
+
+Initial scenarios:
+
+1. Phishing
+2. Password Attack
+3. Brute-force
+4. Man-in-the-Middle
+5. SQL Injection
+6. Malware Behavior
+
+Keep the descriptions short and natural.
+
+Example:
+
+Phishing
+
+"Spot the warning signs in a suspicious message and decide how you would respond."
+
+==================================================
+SIMULATION EXPERIENCE
+=====================
+
+The main simulation interface should have:
+
+Scenario title
+Progress indicator
+Current situation
+Relevant visual
+Available choices
+Explanation panel
+
+The user should move through multiple stages.
+
+Basic flow:
+
+Situation
+↓
+User decision
+↓
+Outcome
+↓
+Explanation
+↓
+Next stage
+↓
+Final result
+
+Do not make every scenario just:
+
+"Click button → Attack blocked."
+
+There should be actual decision-making.
+
+Different choices should produce different outcomes.
+
+==================================================
+PHISHING SIMULATION
+===================
+
+Create a fictional phishing scenario.
+
+Example situation:
+
+The user receives a suspicious account-related message.
+
+Show:
+
+Sender
+Subject
+Message body
+Link
+Other clues
+
+Allow the user to inspect clues and make decisions.
+
+Possible decisions:
+
+Inspect the sender
+Inspect the link
+Open the link
+Report the message
+Ignore the message
+Visit the official website directly
+
+Use fictional domains only.
+
+Do not use real malicious URLs.
+
+Explain clues such as:
+
+Urgency
+Suspicious sender
+Unexpected request
+Credential request
+Suspicious destination
+Unusual wording
+
+At the end:
+
+Show the user's decisions.
+
+Explain which warning signs they noticed or missed.
+
+Provide defensive recommendations.
+
+==================================================
+PASSWORD ATTACK SIMULATION
+==========================
+
+Create a completely fictional account-security scenario.
+
+Do not perform real password attacks.
+
+Use simulated attempts only.
+
+Let the user experiment with defensive settings:
+
+Password strength
+Rate limiting
+MFA
+Account lockout
+
+Visually show simulated attempts.
+
+Example:
+
+Simulated attempts:
+1,240
+
+Do not actually generate or test thousands of real passwords.
+
+The numbers are part of the simulation.
+
+Explain how each defense changes the outcome.
+
+Teach:
+
+Password length
+Password uniqueness
+Rate limiting
+MFA
+Account lockout
+
+==================================================
+BRUTE-FORCE SIMULATION
+======================
+
+Create a separate visual brute-force simulation.
+
+Use a fictional account.
+
+Show an animated simulated attack.
+
+Allow the user to enable defensive controls.
+
+Example:
+
+Rate limiting
+MFA
+Strong password policy
+Account lockout
+
+The simulation should visually show the difference between:
+
+No defenses
+
+and
+
+Multiple defenses enabled.
+
+Do not perform real login attempts.
+
+==================================================
+MAN-IN-THE-MIDDLE SIMULATION
+============================
+
+Create a visual network.
+
+Show:
+
+User
+Router / Network
+Server
+
+Then introduce:
+
+Attacker
+
+Show the conceptual difference between:
+
+User → Server
+
+and
+
+User → Attacker → Server
+
+The simulation should explain the risk of unprotected communication.
+
+Allow the user to compare:
+
+HTTP
+HTTPS
+Certificate validation
+
+Do not perform real packet interception.
+
+Do not connect to real networks.
+
+The entire scenario should be simulated visually.
+
+==================================================
+SQL INJECTION SIMULATION
+========================
+
+Create a fictional login page and fictional database.
+
+Do not connect to a real database.
+
+Explain the concept of unsafe query construction.
+
+The user should be presented with a fictional vulnerable application.
+
+Then ask them to choose a defensive approach.
+
+Choices:
+
+Parameterized queries
+Input validation
+Least privilege
+Secure error handling
+
+Show the conceptual difference between:
+
+Vulnerable design
+
+and
+
+Defensive design.
+
+Do not provide operational attack payloads for attacking real systems.
+
+The goal is to teach secure development.
+
+==================================================
+MALWARE BEHAVIOR SIMULATION
+===========================
+
+Create a fictional endpoint-security scenario.
+
+Show a simulated system activity timeline.
+
+Example events:
+
+Unknown process started
+Unexpected file modification
+Unexpected network connection
+Startup behavior changed
+Suspicious process activity
+
+Ask the user to identify which events deserve investigation.
+
+Then provide defensive choices:
+
+Investigate process
+Review logs
+Isolate endpoint
+Block suspicious activity
+Collect evidence
+
+Do not execute or distribute malware.
+
+==================================================
+SIMULATION ENGINE
+=================
+
+Create a reusable simulation engine.
+
+Each scenario should contain structured data such as:
+
+Scenario
+Stages
+Choices
+Outcomes
+Risk level
+Explanation
+Defensive actions
+Learning points
+
+Do not create six huge unrelated components.
+
+Use reusable components and TypeScript types.
+
+The engine should support:
+
+Start
+Next stage
+Decision
+Outcome
+Restart
+Completion
+Score
+
+==================================================
+DECISION SYSTEM
+===============
+
+Every decision should have an actual consequence inside the simulation.
+
+For example:
+
+Decision:
+
+Click suspicious link
+
+Result:
+
+High risk
+
+Explanation:
+
+"The message contained several warning signs and the destination was not verified."
+
+Recommended action:
+
+"Open the service through its official website instead."
+
+Another decision:
+
+Inspect sender
+
+Result:
+
+Low risk
+
+Explanation:
+
+"Checking the sender before interacting with the message is a useful first step."
+
+The simulator should teach the reason behind the result.
+
+==================================================
+SIMULATION SCORE
+================
+
+Use a simple simulation score from 0–100.
+
+Call it:
+
+Simulation Score
+
+Do not claim that this represents the user's real cybersecurity skill.
+
+Show categories such as:
+
+Risk Recognition
+Decision Making
+Defensive Awareness
+
+Explain the score.
+
+Example:
+
+Simulation Score
+
+82 / 100
+
+Risk Recognition
+Good
+
+Decision Making
+Strong
+
+Defensive Awareness
+Good
+
+Keep this simple.
+
+==================================================
+ATTACK VISUALIZATION
+====================
+
+Every scenario should have a visual representation.
+
+Examples:
+
+Phishing:
+
+Message → User → Suspicious Destination
+
+Password Attack:
+
+Simulated Attempts → Account → Security Controls
+
+MITM:
+
+User → Attacker → Server
+
+SQL Injection:
+
+User Input → Application → Database
+
+Malware:
+
+Process → System → Security Response
+
+Use subtle animations.
+
+Do not over-animate everything.
+
+The visual should help explain the concept.
+
+==================================================
+DEFENSE SECTION
+===============
+
+After or alongside every simulation, provide a simple defensive explanation.
+
+Show:
+
+What the attacker is trying to do
+Warning signs
+Potential impact
+How to reduce the risk
+
+Example:
+
+Defense:
+
+Use MFA
+Use strong unique passwords
+Enable rate limiting
+Verify unexpected messages
+
+Keep explanations understandable for beginners.
+
+==================================================
+LEARNING SECTION
+================
+
+Create a simple Learning section.
+
+Topics:
+
+Phishing
+Password Security
+Brute-force Attacks
+Man-in-the-Middle Attacks
+SQL Injection
+Malware
+Defense in Depth
+
+Each topic should include:
+
+What it is
+How it works conceptually
+What to look for
+How to defend against it
+Key takeaway
+
+Keep the writing concise.
+
+==================================================
+ABOUT THE SIMULATOR
+===================
+
+Create a dedicated "About the simulator" section inspired by the About section of the SPPyntex Security Laboratory.
+
+This section should feel personal and written by Safal.
+
+Use the following structure:
+
+---
+
+SPPyntex Cyber Attack Simulator
+
+Field notes / About
+
+# Built by curiosity. Designed for learning.
+
+The SPPyntex Cyber Attack Simulator is a personal cybersecurity education project created by Safal Panta to make common cyber attack concepts easier to understand through safe, interactive simulations.
+
+Instead of simply reading about an attack, the idea is to let users make decisions, see what happens, and understand how defensive measures can change the outcome.
+
+---
+
+About me
+
+SAFAL PANTA
+
+## Student. Builder. Cybersecurity enthusiast.
+
+I'm Safal Panta, a student exploring the intersection of cybersecurity, artificial intelligence, Python, and software development. I enjoy learning by building things, breaking down complicated concepts, and turning what I learn into practical projects.
+
+---
+
+What I build
+
+Cybersecurity tools, AI experiments, web applications, and learning projects.
+
+What I explore
+
+Cybersecurity, ethical security research, AI, Python, networking, and modern web technologies.
+
+Display simple tags:
+
+Cybersecurity
+AI
+Python
+Web Development
+
+---
+
+SPPyntex
+
+## A personal project for learning cybersecurity.
+
+SPPyntex is the project identity behind this simulator and my other cybersecurity projects.
+
+The goal is simple: take cybersecurity concepts that are often presented as theory and turn them into interactive experiences that are easier to understand.
+
+---
+
+01
+Learn by experimenting
+
+02
+Understand how attacks work
+
+03
+See how defenses change the outcome
+
+04
+Build knowledge through projects
+
+---
+
+Why I built this
+
+## Turning security concepts into something you can interact with.
+
+Cybersecurity topics like phishing, brute-force attacks, SQL injection, and malware behavior can be difficult to understand when they are explained only through theory.
+
+This simulator was created to make those concepts more visual and interactive.
+
+Instead of attacking real systems, the simulations use fictional scenarios and local application logic so users can learn safely.
+
+---
+
+Safety philosophy
+
+No real-world attacks
+
+No credential harvesting
+
+No malware execution
+
+No unauthorized scanning
+
+No real network interception
+
+No real login attempts
+
+Everything is simulated for learning.
+
+---
+
+CONNECT WITH SAFAL
+
+Create a clean section at the bottom of the About page:
+
+Connect with me
+
+GitHub
+View my projects and code
+
+LinkedIn
+Connect with me and follow my work
+
+Use the project owner's supplied GitHub and LinkedIn profile URLs for these buttons.
+
+Open external profiles in a new browser tab.
+
+Use recognizable GitHub and LinkedIn icons.
+
+Do not create fake social accounts.
+
+==================================================
+ABOUT PAGE DESIGN
+=================
+
+Do not make the About section look like a corporate "Our Company" page.
+
+It should feel like personal field notes from the creator.
+
+Use:
+
+Large headings
+Small labels
+Readable paragraphs
+Simple sections
+Subtle separators
+Clean cards
+
+The writing should feel human.
+
+==================================================
+FOOTER
+======
+
+Use:
+
+SPPyntex Cyber Attack Simulator
+
+Built & designed by Safal Panta
+
+Add small links:
+
+GitHub
+LinkedIn
+About
+
+Do not mention Replit.
+
+==================================================
+DATA STORAGE
+============
+
+Use browser local storage for:
+
+Completed simulations
+Simulation scores
+Basic local progress
+
+Do not collect unnecessary personal information.
+
+Do not upload credentials.
+
+Do not upload passwords.
+
+Do not send simulation data to an external server.
+
+==================================================
+TECHNICAL STRUCTURE
+===================
+
+Use React + TypeScript if supported by the generated project.
+
+Use reusable components.
+
+Use typed scenario data.
+
+Separate:
+
+UI components
+Simulation engine
+Scenario data
+Utility functions
+Storage logic
+
+Do not put everything into one massive component.
+
+Keep the code understandable.
+
+==================================================
+VISUAL STYLE
+============
+
+The design should feel like SPPyntex.
+
+Dark background.
+
+Clean cards.
+
+Subtle borders.
+
+Technical but minimal.
+
+Good typography.
+
+Small animations.
+
+No excessive glowing effects.
+
+No fake command-line screens everywhere.
+
+No random graphs just to fill space.
+
+No fake "Threat Level: 97%" dashboard statistics.
+
+No fake live network activity.
+
+Everything shown should have a purpose.
+
+==================================================
+RESPONSIVE DESIGN
+=================
+
+The application must work well on:
+
+Desktop
+Laptop
+Tablet
+Mobile
+
+The simulator should remain usable on smaller screens.
+
+==================================================
+FINAL TESTING
+=============
+
+Before considering the application complete, test:
+
+Dashboard
+Scenario selection
+Phishing simulation
+Password attack simulation
+Brute-force simulation
+MITM simulation
+SQL injection simulation
+Malware simulation
+Decision system
+Scoring
+Defense explanations
+Learning section
+About section
+GitHub link
+LinkedIn link
+Local storage
+Restart simulation
+Mobile layout
+
+Fix runtime errors.
+
+Fix broken buttons.
+
+Fix navigation issues.
+
+Make sure no Replit branding appears anywhere in the user-facing interface.
+
+Do not leave placeholder text.
+
+Do not leave "Lorem ipsum."
+
+Do not create fake statistics.
+
+The final result should feel like a real personal cybersecurity project built by Safal Panta under the SPPyntex identity.
+
+It should feel connected to the existing SPPyntex Security Laboratory and SPPyntex URL Threat Analyzer, while still being its own project.
+
+Most importantly:
+
+Make it feel like a project made by a cybersecurity student who learns by building — not like an AI-generated corporate cybersecurity product.

@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "SPPyntex Cyber Attack Simulator"
+description = "A safe, interactive cybersecurity learning lab by Safal Panta. Explore fictional phishing, password, network, SQL injection, and malware scenarios, practice defensive decisions, and track local learning progress."
+version = "1.0.0"
+id = "artifacts/sppyntex-cyber-simulator"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22840
+
+[services.development]
+run = "pnpm --filter @workspace/sppyntex-cyber-simulator run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sppyntex-cyber-simulator", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/sppyntex-cyber-simulator/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22840"
+BASE_PATH = "/"
